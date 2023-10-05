@@ -163,12 +163,14 @@ body {
   display: flex;
 }
 .about .row .about-img {
-  flex: 1 1 45rem;
+  flex: 1 1 10rem;
 }
 
 .about .row .about-img img {
-  margin: 1.5rem 30%;
-  width: 15rem;
+  border: 20px solid var(--primary);
+  border-radius: 3rem;
+  margin: 1rem 30%;
+  width: 16rem;
 }
 
 .about .row .content {
